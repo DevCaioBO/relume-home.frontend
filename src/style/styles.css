@@ -1,0 +1,30 @@
+button{
+    animation: fly 0.1s alternate infinite;
+    background-color: blue;
+    color: #fff;
+    border-radius: 50%;
+    width:250px;
+    height:150px;
+    border: none;
+}
+@keyframes fly{
+    0%{
+        transform: rotate(-360deg);
+    }
+    30%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+button:hover{
+    
+    transition: 0.2s ease ;
+    background-color: rgb(121, 121, 177);
+    color: #fff;
+    border-radius: 50%;
+    width:250px;
+    height:150px;
+    border: none;
+}
